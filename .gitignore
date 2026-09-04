@@ -1,0 +1,130 @@
+# Secrets and credentials
+.env
+.env.local
+.env.*.local
+auth.json
+*.pem
+*.key
+*.p12
+*.pfx
+*_secret*
+*_token*
+*_password*
+*secret*
+*credential*
+google_client_secret.json
+google_token.json
+mcp-tokens/
+*.oauth*
+*.token
+
+# Virtual environments and dependencies
+venv/
+.venv/
+env/
+.env/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+*.egg-info/
+dist/
+build/
+
+# Runtime data
+logs/
+sessions/
+cache/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+state.db*
+kanban.db*
+projects.db*
+verification_evidence.db*
+response_store.db*
+*.db-shm
+*.db-wal
+
+# Large generated artifacts
+models_dev_cache.json
+provider_models_cache.json
+ollama_cloud_models_cache.json
+context_length_cache.yaml
+
+# Browser profiles and automation
+.playwright-mcp/
+.browser*/
+chrome-profile/
+firefox-profile/
+
+# Personal datasets
+teacher-leads/
+sales-leads/
+terminal-sessions/
+sandboxes/
+sales-leads/
+.scratch_tip_shown
+SOUL.md
+social-report.md
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lock files
+*.lock
+*.pid
+*.sock
+*.lock.*
+
+# CI/CD
+.github/workflows/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Compiled artifacts
+*.so
+*.dylib
+*.dll
+*.class
+*.jar
+
+# Native
+*.o
+*.a
+
+# Lock files specific to this repo
+flake.lock
+flake.nix
+.web_ui_build.lock
+
+# Runtime
+gateway.lock
+gateway.pid
+gateway.sock
+gateway_state.json
+gateway-starts.log
+.restart_last_processed.json
+.install_id.lock
+.install_method
+.npm_lock_hash_*
+
+# Custom
+*.corrupt*
+*.etag
